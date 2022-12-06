@@ -1,0 +1,36 @@
+2022-12-05 20:32:07.382  INFO 66217 --- [restartedMain] c.numpyninja.lms.LmsServicesApplication  : Starting LmsServicesApplication using Java 18 on Sanats-MacBook-Air.local with PID 66217 (/Users/Sanat/digital_ocean/target/classes started by Sanat in /Users/Sanat/digital_ocean)
+2022-12-05 20:32:07.387  INFO 66217 --- [restartedMain] c.numpyninja.lms.LmsServicesApplication  : No active profile set, falling back to default profiles: default
+2022-12-05 20:32:07.563  INFO 66217 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-12-05 20:32:07.564  INFO 66217 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-12-05 20:32:10.823  INFO 66217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-05 20:32:10.828  INFO 66217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-12-05 20:32:10.903  INFO 66217 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.numpyninja.lms.repository.ProgBatchRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-12-05 20:32:10.907  INFO 66217 --- [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.numpyninja.lms.repository.ProgramRepository. If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2022-12-05 20:32:10.909  INFO 66217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 0 JDBC repository interfaces.
+2022-12-05 20:32:10.937  INFO 66217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-12-05 20:32:10.940  INFO 66217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-05 20:32:11.051  INFO 66217 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 93 ms. Found 2 JPA repository interfaces.
+2022-12-05 20:32:12.960  INFO 66217 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 1234 (http)
+2022-12-05 20:32:12.990  INFO 66217 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-05 20:32:12.990  INFO 66217 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.53]
+2022-12-05 20:32:13.185  INFO 66217 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/lms]    : Initializing Spring embedded WebApplicationContext
+2022-12-05 20:32:13.186  INFO 66217 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5615 ms
+2022-12-05 20:32:13.591  INFO 66217 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-05 20:32:13.770  INFO 66217 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2022-12-05 20:32:14.219  INFO 66217 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-05 20:32:14.499  INFO 66217 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-12-05 20:32:15.255  INFO 66217 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-12-05 20:32:15.332  INFO 66217 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-12-05 20:32:17.398  INFO 66217 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-05 20:32:17.428  INFO 66217 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-05 20:32:18.551  WARN 66217 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-05 20:32:19.012  INFO 66217 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-12-05 20:32:19.904  WARN 66217 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-12-05 20:32:20.244  INFO 66217 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 1234 (http) with context path '/lms'
+2022-12-05 20:32:20.739  INFO 66217 --- [restartedMain] c.numpyninja.lms.LmsServicesApplication  : Started LmsServicesApplication in 19.998 seconds (JVM running for 22.42)
+2022-12-05 20:36:02.344  INFO 66217 --- [http-nio-1234-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/lms]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-05 20:36:02.346  INFO 66217 --- [http-nio-1234-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-05 20:36:02.370  INFO 66217 --- [http-nio-1234-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 24 ms
+2022-12-05 20:36:15.368  INFO 66217 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-05 20:36:15.378  INFO 66217 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-12-05 20:36:15.386  INFO 66217 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
